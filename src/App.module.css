@@ -1,0 +1,10 @@
+@import "./vars.css";
+
+.App {
+    /* background-color: #F9FBFF; */
+    width: 100%;
+    height: 100%;
+
+    font-family: var(--font-pjs), Arial, Helvetica, sans-serif;
+
+}

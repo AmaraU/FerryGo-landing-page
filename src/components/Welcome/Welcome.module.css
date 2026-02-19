@@ -1,0 +1,86 @@
+.welcome {
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    min-height: 100vh;
+}
+
+.words {
+    flex: 1;
+    text-align: left;
+    width: 574px;
+}
+
+.home {
+    font-size: 18px;
+    font-weight: 500;
+    color: #343434;
+    text-decoration: none;
+}
+
+.bread {
+    position: static;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.crumb {
+    list-style: none;
+}
+
+.heading {
+    font-size: 70px;
+    font-weight: 750;
+    color: var(--color-blue-text);
+}
+
+.description {
+    padding-top: 15px;
+    color: var(--color-grey-text);
+    font-size: 23.42px;
+    font-weight: 400;
+}
+
+.buttons {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.buttonOne {
+    background-color: var(--color-button);
+    color: var(--color-white-text);
+    border-radius: 36.65px;
+    padding: 20px 25px;
+    border: none;
+    margin-right: 15px;
+}
+
+.buttonTwo {
+    color: var(--color-button);
+    background-color: var(--color-white-text);
+    border: 2px solid var(--color-button);
+    border-radius: 36.65px;
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 830px) {
+
+    .welcome {
+        display: grid;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .buttons {
+        padding-bottom: 50px;
+    }
+}
