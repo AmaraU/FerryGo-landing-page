@@ -1,53 +1,52 @@
-import react from "react";
-
+import React from "react";
 import styles from "./Footer.module.css";
+import { getImageURL } from "../../utils";
 
- export const Footer = () => {
-    return( <div className={styles.footer}>
-        <div className={styles.title}>
-            <h1>Trusted by 100+Leading Organisation</h1>
-            <p>This is just a random generated text to be included in a later date 
-            based on a final draft to be decided by the content team</p>
+export const Footer = () => {
+    return (
+        <div className={styles.whole}>
+
+            <img src={getImageURL('big-logo.png')} alt="" />
+
+
+            <div className={styles.links}>
+
+                <div className={styles.partOne}>
+                    <p>Plan easy trips to beaches and islands</p>
+                    <span>
+                        <a><img src={getImageURL("LinkedIn.svg")} alt="" /></a>
+                        <a><img src={getImageURL("Instagram.svg")} alt="" /></a>
+                        <a><img src={getImageURL("Facebook.svg")} alt="" /></a>
+                        <a><img src={getImageURL("Twitter.svg")} alt="" /></a>
+                    </span>
+                </div>
+
+                <div className={styles.partTwo}>
+                    <div>
+                        <p>Company</p>
+                        <div className={styles.list}>
+                            <a href="">About Us</a>
+                            <a href="">FAQs</a>
+                            <a href="">Teams</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                    </div>
+                    <div className={styles.privacy}>
+                        <p>Privacy</p>
+                        <div className={styles.list}>
+                            <a href="">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className={styles.theBottom}>
+                <p>© 2026 All Rights Reserved</p>
+                <a href="">Terms of Use</a>
+            </div>
         </div>
-
-        <div className={styles.header}>
-            <ul className={styles.contents}>
-                <li>
-                    <div>
-                        <h2>90%</h2>
-                        <p>Customer Success Rate</p>
-                    </div>
-                </li>
-                <li className={styles.line}></li>
-
-                <li>
-                    <div>
-                        <h2>99.99%</h2>
-                        <p>Active users</p>
-                    </div>
-                </li>
-
-                <li className={styles.line}></li>
-
-                <li>
-                    <div>
-                        <h2>5000+</h2>
-                        <p>Active users Across All platforms</p>
-                    </div>
-                </li>
-
-                <li className={styles.line}></li>
-
-                <li>
-                    <div>
-                        <h2>4.8/5</h2>
-                        <p>Customer Satisfaction Rating</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-    </div>
     )
-    
 }
+
+

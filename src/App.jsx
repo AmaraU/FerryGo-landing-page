@@ -1,26 +1,23 @@
 import styles from './App.module.css';
-import { Numbers } from './components/Numbers/Numbers';
-import { Page2 } from './components/Page2/Page2';
-import { UsedBy } from './components/UsedBy/UsedBy';
-import { Welcome } from './components/Welcome/Welcome';
-// import { Blank } from "./Blank";
-import { Contact } from "./components/Contact/Contact";
-import { Footer } from "./components/Footer/Footer";
 import { Navbar } from "./components/Navbar/Navbar";
-import { BottomFooter } from './components/BottomFooter/BottomFooter';
+import { Welcome } from './components/Welcome/Welcome';
+import { AboutUs } from './components/AboutUs/AboutUs';
+import { Services } from './components/Services/Services';
+import { Banner } from './components/Banner/Banner';
+import { Footer } from './components/Footer/Footer';
+// import { Blank } from "./Blank";
+
 
 function App() {
 
   return (
     <div className={styles.App}>
-      <Contact />
       <Navbar />
       <Welcome />
-      <UsedBy />
-      <Page2 />
-      {/* <Footer /> */}
-      {/* <Blank /> */}
-      {/* <BottomFooter /> */}
+      <AboutUs />
+      <Services />
+      <Banner />
+      <Footer />
     </div>
   )
 }

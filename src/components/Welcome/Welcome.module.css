@@ -1,70 +1,50 @@
 .welcome {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 24px;
     margin-bottom: 32px;
-    min-height: 100vh;
 }
 
 .words {
     flex: 1;
-    text-align: left;
-    width: 574px;
-}
-
-.home {
-    font-size: 18px;
-    font-weight: 500;
-    color: #343434;
-    text-decoration: none;
-}
-
-.bread {
-    position: static;
-    padding-top: 20px;
-    padding-left: 90px;
-}
-
-.crumb {
-    list-style: none;
+    width: 80%;
 }
 
 .heading {
-    font-size: 70px;
-    font-weight: 750;
-    color: var(--color-blue-text);
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
 }
 
 .description {
-    padding-top: 15px;
-    color: var(--color-grey-text);
-    font-size: 23.42px;
+    padding-top: 40px;
+    color: #252323;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .buttons {
+    display: flex;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 30px;
+    gap: 24px;
 }
 
-.buttonOne {
-    background-color: var(--color-button);
-    color: var(--color-white-text);
-    border-radius: 36.65px;
-    padding: 20px 25px;
+.buttons button {
     border: none;
-    margin-right: 15px;
+    outline: none;
+    background: transparent;
 }
 
-.buttonTwo {
-    color: var(--color-button);
-    background-color: var(--color-white-text);
-    border: 2px solid var(--color-button);
-    border-radius: 36.65px;
-    padding: 15px 20px;
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
 }
 
 
@@ -80,7 +60,12 @@
         padding-top: 15px;
     }
 
+    .words {
+        width: 100%;
+    }
+
     .buttons {
+        flex-direction: column;
         padding-bottom: 50px;
     }
 }

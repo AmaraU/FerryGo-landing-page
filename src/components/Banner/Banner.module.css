@@ -1,0 +1,92 @@
+@import "../../vars.css";
+
+.banner {
+    width: 100%;
+    background-color: #4BA3E3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+    position: relative;
+}
+
+.ab1 {
+    position: absolute;
+    right: 40%;
+    top: 10%;
+}
+
+.ab2 {
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+}
+
+.ab3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ab4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.words {
+    flex: 2;
+}
+
+.words h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.words p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    gap: 24px;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.image {
+    flex: 1;
+    z-index: 2;
+}
+
+
+
+@media screen and (max-width: 830px) {
+
+    .banner {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ab1,
+    .ab2 {
+        left: 80%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+}

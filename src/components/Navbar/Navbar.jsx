@@ -22,11 +22,29 @@ export const Navbar = () => {
         <div className={styles.mainNav}>
 
             <div className={styles.imageCont}>
-                <img className={styles.image} src={getImageURL("FG_Logo_BlueBg.svg")} />
+                <img className={styles.image} src={getImageURL("FG_Logo_Blue.svg")} />
             </div>
 
+            <nav className={styles.navbar}>
+                <div className={styles.menu}>
+                    <ul className={styles.menuItems}>
+                        <li className={styles.menuItem1}>
+                            <a href="#Home">Home</a>
+                        </li>
+
+                        <li className={styles.menuItem2}>
+                            <a href="#About">About</a>
+                        </li>
+
+                        <li className={styles.menuItem3}>
+                            <a href="#Service">Service</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
             <div className={styles.link}>
-                <a href={"#Get in Touch"}>Get in Touch</a>
+                <a href={"#GetStarted"}>Get Started</a>
             </div>
         </div>
 
