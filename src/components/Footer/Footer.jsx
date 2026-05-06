@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className={styles.whole}>
 
-            <img src={getImageURL('big-logo.png')} alt="" />
+            <img src={getImageURL('big-logo.svg')} alt="FerryGo" className={styles.logo} />
 
 
             <div className={styles.links}>

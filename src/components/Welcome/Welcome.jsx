@@ -8,7 +8,8 @@ export const Welcome = () => {
         <div>
             <div className={styles.welcome}>
                 <div className={styles.words}>
-                    <h1 className={styles.heading}>Skip the Queue & Ride with Us!</h1>
+                    <h1 className={styles.heading}>Skip the Queue &</h1>
+                    <h1 className={styles.heading}>Ride with Us!</h1>
                     <p className={styles.description}>
                         Plan easy trips to beaches and islands across Lagos quickly and without stress
                     </p>
@@ -25,7 +26,7 @@ export const Welcome = () => {
                 </div>
 
                 <div className={styles.image}>
-                    <img src={getImageURL('boat-party.png')} alt="" />
+                    <img src={getImageURL('boat-party.svg')} alt="" />
                 </div>
             </div>
         </div>

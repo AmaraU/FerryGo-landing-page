@@ -22,13 +22,13 @@ export const Services = () => {
                         </div>
 
                         <div className={styles.image}>
-                            <img src={getImageURL('img2.png')} alt="" />
+                            <img src={getImageURL('img2.svg')} alt="" />
                         </div>
                     </div>
 
                     <div className={styles.content}>
                         <div className={styles.image}>
-                            <img src={getImageURL('img3.png')} alt="" />
+                            <img src={getImageURL('img3.svg')} alt="" />
                         </div>
 
                         <div className={styles.words}>

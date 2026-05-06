@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 10px;
+    padding: 4px 10%;
     text-align: left;
     background-color: #FFFFFF;
 
@@ -22,9 +22,9 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 22px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     z-index: 10;
-    margin: 0 10%;
+    /* margin: 0 10%; */
 }
 
 .menu {
@@ -41,7 +41,7 @@
 }
 
 .imageCont {
-    margin-left: 70px;
+    margin-left: -20px;
 }
 
 .image {
@@ -64,7 +64,6 @@
     text-decoration: none;
     font-size: 15px;
     color: #FFFFFF;
-    margin-right: 70px;
 }
 
 

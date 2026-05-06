@@ -10,7 +10,7 @@ export const AboutUs = () => {
 
                 <img src={getImageURL('clouds.svg')} alt="" className={styles.clouds} />
 
-                <img src={getImageURL('beach-umbrella.png')} alt="" className={styles.umbrella} />
+                <img src={getImageURL('beach-umbrella.svg')} alt="" className={styles.umbrella} />
 
                 <div className={styles.about}>
 
@@ -29,7 +29,7 @@ export const AboutUs = () => {
 
 
                         <div className={styles.image}>
-                            <img src={getImageURL('img1.png')} alt="" />
+                            <img src={getImageURL('img1.svg')} alt="" />
                         </div>
                     </div>
                 </div>
